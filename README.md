@@ -4,6 +4,8 @@
   This repository serves as a demonstration for our YouTube video series, where we dive into the exciting new beta releases of Herd and NativePHP - powerful tools for Laravel and PHP development. We also explore Pest PHP, the elegant testing framework that brings joy back to testing in PHP.
 </p>
 
+[![IT Man - Modern PHP Development in 2023 ](https://i.ytimg.com/vi/radwftz6vlQ/hqdefault.jpg)](https://www.youtube.com/watch?v=radwftz6vlQ)
+
 ## 🛠 Tools Explored
 
 -   [Herd](https://herd.laravel.com/) - One click PHP development environment
