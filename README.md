@@ -20,16 +20,30 @@
 -   Laravel 9 or higher
 -   NPM
 
+After you've met the requirements, you can install the application dependencies, run the application, or execute the tests by using the following commands:
+
+### Install Dependencies
+
+```sh
+make install
+```
+
+### Run Laravel Application
+
+```sh
+make dev
+```
+
 ### Run Native App
 
 ```sh
-php artisan native:serve
+make serve
 ```
 
 ### Test
 
 ```sh
-./vendor/bin/pest
+make test
 ```
 
 ## Author
