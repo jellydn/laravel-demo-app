@@ -7,10 +7,10 @@
     "require": {
         "php": "8.2.8",
         "guzzlehttp/guzzle": "7.7.0",
-        "laravel/framework": "10.16.0",
+        "laravel/framework": "10.16.1",
         "laravel/sanctum": "3.2.5",
         "laravel/tinker": "2.8.1",
-        "nativephp/electron": "0.1.1"
+        "nativephp/electron": "0.1.2"
     },
     "require-dev": {
         "fakerphp/faker": "1.23.0",
