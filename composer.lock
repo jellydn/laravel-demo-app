@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "6682fc890d4a8482b117252f91cfca50",
+    "content-hash": "9d3ec944e3144a85148725eda1d99ee4",
     "packages": [
         {
             "name": "brick/math",
@@ -1863,16 +1863,16 @@
         },
         {
             "name": "nativephp/electron",
-            "version": "0.3.1",
+            "version": "0.3.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/NativePHP/electron.git",
-                "reference": "0d607f71b81aeac36bdc65f89d1f36de12fd498a"
+                "reference": "f85515cbb1a5d3453f8c944541586c54ed0da0d9"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/NativePHP/electron/zipball/0d607f71b81aeac36bdc65f89d1f36de12fd498a",
-                "reference": "0d607f71b81aeac36bdc65f89d1f36de12fd498a",
+                "url": "https://api.github.com/repos/NativePHP/electron/zipball/f85515cbb1a5d3453f8c944541586c54ed0da0d9",
+                "reference": "f85515cbb1a5d3453f8c944541586c54ed0da0d9",
                 "shasum": ""
             },
             "require": {
@@ -1931,22 +1931,22 @@
             ],
             "support": {
                 "issues": "https://github.com/NativePHP/electron/issues",
-                "source": "https://github.com/NativePHP/electron/tree/0.3.1"
+                "source": "https://github.com/NativePHP/electron/tree/0.3.2"
             },
-            "time": "2023-07-27T23:20:56+00:00"
+            "time": "2023-07-28T11:54:52+00:00"
         },
         {
             "name": "nativephp/laravel",
-            "version": "0.1.1",
+            "version": "0.2.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/NativePHP/laravel.git",
-                "reference": "42ce4e93eb7ed41522f3435acc673ddaf59aa1c7"
+                "reference": "f18c274315fc51931f0f3f628e532ba72d425c4a"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/NativePHP/laravel/zipball/42ce4e93eb7ed41522f3435acc673ddaf59aa1c7",
-                "reference": "42ce4e93eb7ed41522f3435acc673ddaf59aa1c7",
+                "url": "https://api.github.com/repos/NativePHP/laravel/zipball/f18c274315fc51931f0f3f628e532ba72d425c4a",
+                "reference": "f18c274315fc51931f0f3f628e532ba72d425c4a",
                 "shasum": ""
             },
             "require": {
@@ -2009,9 +2009,9 @@
             ],
             "support": {
                 "issues": "https://github.com/NativePHP/laravel/issues",
-                "source": "https://github.com/NativePHP/laravel/tree/0.1.1"
+                "source": "https://github.com/NativePHP/laravel/tree/0.2.0"
             },
-            "time": "2023-07-25T22:24:01+00:00"
+            "time": "2023-07-28T11:22:59+00:00"
         },
         {
             "name": "nativephp/php-bin",
