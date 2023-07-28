@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "9d22f6cbb8284bd72945b5c5255dcca0",
+    "content-hash": "6682fc890d4a8482b117252f91cfca50",
     "packages": [
         {
             "name": "brick/math",
@@ -1863,16 +1863,16 @@
         },
         {
             "name": "nativephp/electron",
-            "version": "0.2.0",
+            "version": "0.3.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/NativePHP/electron.git",
-                "reference": "e11a25a997719618c81f5f4297ee23dcc2af5c23"
+                "reference": "0d607f71b81aeac36bdc65f89d1f36de12fd498a"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/NativePHP/electron/zipball/e11a25a997719618c81f5f4297ee23dcc2af5c23",
-                "reference": "e11a25a997719618c81f5f4297ee23dcc2af5c23",
+                "url": "https://api.github.com/repos/NativePHP/electron/zipball/0d607f71b81aeac36bdc65f89d1f36de12fd498a",
+                "reference": "0d607f71b81aeac36bdc65f89d1f36de12fd498a",
                 "shasum": ""
             },
             "require": {
@@ -1931,9 +1931,9 @@
             ],
             "support": {
                 "issues": "https://github.com/NativePHP/electron/issues",
-                "source": "https://github.com/NativePHP/electron/tree/0.2.0"
+                "source": "https://github.com/NativePHP/electron/tree/0.3.1"
             },
-            "time": "2023-07-26T22:12:17+00:00"
+            "time": "2023-07-27T23:20:56+00:00"
         },
         {
             "name": "nativephp/laravel",
@@ -2015,16 +2015,16 @@
         },
         {
             "name": "nativephp/php-bin",
-            "version": "0.2.0",
+            "version": "0.3.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/NativePHP/php-bin.git",
-                "reference": "7a8630aac2c9d784eb46f52ced2fce3bd0155019"
+                "reference": "36fec9027b2be29d1a5d1aa83baf6d8030da66e9"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/NativePHP/php-bin/zipball/7a8630aac2c9d784eb46f52ced2fce3bd0155019",
-                "reference": "7a8630aac2c9d784eb46f52ced2fce3bd0155019",
+                "url": "https://api.github.com/repos/NativePHP/php-bin/zipball/36fec9027b2be29d1a5d1aa83baf6d8030da66e9",
+                "reference": "36fec9027b2be29d1a5d1aa83baf6d8030da66e9",
                 "shasum": ""
             },
             "type": "library",
@@ -2055,9 +2055,9 @@
             ],
             "support": {
                 "issues": "https://github.com/NativePHP/php-bin/issues",
-                "source": "https://github.com/NativePHP/php-bin/tree/0.2.0"
+                "source": "https://github.com/NativePHP/php-bin/tree/0.3.0"
             },
-            "time": "2023-07-26T12:28:41+00:00"
+            "time": "2023-07-27T10:44:16+00:00"
         },
         {
             "name": "nesbot/carbon",
