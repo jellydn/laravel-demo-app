@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "0554eed6f83beb42fe904131aae5a1b5",
+    "content-hash": "d52fd2f6807309ab85bc19dac57f809e",
     "packages": [
         {
             "name": "brick/math",
@@ -1863,16 +1863,16 @@
         },
         {
             "name": "nativephp/electron",
-            "version": "0.3.2",
+            "version": "0.3.3",
             "source": {
                 "type": "git",
                 "url": "https://github.com/NativePHP/electron.git",
-                "reference": "f85515cbb1a5d3453f8c944541586c54ed0da0d9"
+                "reference": "47949012a2ee82fa8c67bf0a81519dd16a4651b0"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/NativePHP/electron/zipball/f85515cbb1a5d3453f8c944541586c54ed0da0d9",
-                "reference": "f85515cbb1a5d3453f8c944541586c54ed0da0d9",
+                "url": "https://api.github.com/repos/NativePHP/electron/zipball/47949012a2ee82fa8c67bf0a81519dd16a4651b0",
+                "reference": "47949012a2ee82fa8c67bf0a81519dd16a4651b0",
                 "shasum": ""
             },
             "require": {
@@ -1931,22 +1931,22 @@
             ],
             "support": {
                 "issues": "https://github.com/NativePHP/electron/issues",
-                "source": "https://github.com/NativePHP/electron/tree/0.3.2"
+                "source": "https://github.com/NativePHP/electron/tree/0.3.3"
             },
-            "time": "2023-07-28T11:54:52+00:00"
+            "time": "2023-07-31T11:33:20+00:00"
         },
         {
             "name": "nativephp/laravel",
-            "version": "0.2.0",
+            "version": "0.3.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/NativePHP/laravel.git",
-                "reference": "f18c274315fc51931f0f3f628e532ba72d425c4a"
+                "reference": "8540706b95f95710e14bc6530663b6754b4e728a"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/NativePHP/laravel/zipball/f18c274315fc51931f0f3f628e532ba72d425c4a",
-                "reference": "f18c274315fc51931f0f3f628e532ba72d425c4a",
+                "url": "https://api.github.com/repos/NativePHP/laravel/zipball/8540706b95f95710e14bc6530663b6754b4e728a",
+                "reference": "8540706b95f95710e14bc6530663b6754b4e728a",
                 "shasum": ""
             },
             "require": {
@@ -2009,9 +2009,9 @@
             ],
             "support": {
                 "issues": "https://github.com/NativePHP/laravel/issues",
-                "source": "https://github.com/NativePHP/laravel/tree/0.2.0"
+                "source": "https://github.com/NativePHP/laravel/tree/0.3.0"
             },
-            "time": "2023-07-28T11:22:59+00:00"
+            "time": "2023-07-29T21:19:30+00:00"
         },
         {
             "name": "nativephp/php-bin",
@@ -3706,16 +3706,16 @@
         },
         {
             "name": "symfony/finder",
-            "version": "v6.3.2",
+            "version": "v6.3.3",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/finder.git",
-                "reference": "78ce4c29757d657d2b41a91c328923b9a0d6b43d"
+                "reference": "9915db259f67d21eefee768c1abcf1cc61b1fc9e"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/finder/zipball/78ce4c29757d657d2b41a91c328923b9a0d6b43d",
-                "reference": "78ce4c29757d657d2b41a91c328923b9a0d6b43d",
+                "url": "https://api.github.com/repos/symfony/finder/zipball/9915db259f67d21eefee768c1abcf1cc61b1fc9e",
+                "reference": "9915db259f67d21eefee768c1abcf1cc61b1fc9e",
                 "shasum": ""
             },
             "require": {
@@ -3750,7 +3750,7 @@
             "description": "Finds files and directories via an intuitive fluent interface",
             "homepage": "https://symfony.com",
             "support": {
-                "source": "https://github.com/symfony/finder/tree/v6.3.2"
+                "source": "https://github.com/symfony/finder/tree/v6.3.3"
             },
             "funding": [
                 {
@@ -3766,7 +3766,7 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2023-07-13T14:29:38+00:00"
+            "time": "2023-07-31T08:31:44+00:00"
         },
         {
             "name": "symfony/http-foundation",
@@ -6592,16 +6592,16 @@
         },
         {
             "name": "pestphp/pest",
-            "version": "v2.10.0",
+            "version": "v2.10.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/pestphp/pest.git",
-                "reference": "5f7a1663dd38ba3845ed952fa3272ab8cc917b47"
+                "reference": "4de70da0a0d4aebc141f5a9a9ad4ccae56329895"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/pestphp/pest/zipball/5f7a1663dd38ba3845ed952fa3272ab8cc917b47",
-                "reference": "5f7a1663dd38ba3845ed952fa3272ab8cc917b47",
+                "url": "https://api.github.com/repos/pestphp/pest/zipball/4de70da0a0d4aebc141f5a9a9ad4ccae56329895",
+                "reference": "4de70da0a0d4aebc141f5a9a9ad4ccae56329895",
                 "shasum": ""
             },
             "require": {
@@ -6678,7 +6678,7 @@
             ],
             "support": {
                 "issues": "https://github.com/pestphp/pest/issues",
-                "source": "https://github.com/pestphp/pest/tree/v2.10.0"
+                "source": "https://github.com/pestphp/pest/tree/v2.10.1"
             },
             "funding": [
                 {
@@ -6690,7 +6690,7 @@
                     "type": "github"
                 }
             ],
-            "time": "2023-07-30T22:52:43+00:00"
+            "time": "2023-07-31T10:58:13+00:00"
         },
         {
             "name": "pestphp/pest-plugin",
