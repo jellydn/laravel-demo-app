@@ -7,8 +7,8 @@
     "require": {
         "php": "8.2.10",
         "guzzlehttp/guzzle": "7.8.0",
-        "laravel/framework": "10.21.0",
-        "laravel/sanctum": "3.2.6",
+        "laravel/framework": "10.21.1",
+        "laravel/sanctum": "3.3.0",
         "laravel/tinker": "2.8.2",
         "nativephp/electron": "0.4.0"
     },
