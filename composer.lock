@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "693b93edb7b5382e576476ace0ff4b50",
+    "content-hash": "02ffe38b83d643e04fa571b4a1fc4758",
     "packages": [
         {
             "name": "brick/math",
@@ -636,16 +636,16 @@
         },
         {
             "name": "guzzlehttp/guzzle",
-            "version": "7.8.0",
+            "version": "7.8.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/guzzle/guzzle.git",
-                "reference": "1110f66a6530a40fe7aea0378fe608ee2b2248f9"
+                "reference": "41042bc7ab002487b876a0683fc8dce04ddce104"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/guzzle/guzzle/zipball/1110f66a6530a40fe7aea0378fe608ee2b2248f9",
-                "reference": "1110f66a6530a40fe7aea0378fe608ee2b2248f9",
+                "url": "https://api.github.com/repos/guzzle/guzzle/zipball/41042bc7ab002487b876a0683fc8dce04ddce104",
+                "reference": "41042bc7ab002487b876a0683fc8dce04ddce104",
                 "shasum": ""
             },
             "require": {
@@ -660,11 +660,11 @@
                 "psr/http-client-implementation": "1.0"
             },
             "require-dev": {
-                "bamarni/composer-bin-plugin": "^1.8.1",
+                "bamarni/composer-bin-plugin": "^1.8.2",
                 "ext-curl": "*",
                 "php-http/client-integration-tests": "dev-master#2c025848417c1135031fdf9c728ee53d0a7ceaee as 3.0.999",
                 "php-http/message-factory": "^1.1",
-                "phpunit/phpunit": "^8.5.29 || ^9.5.23",
+                "phpunit/phpunit": "^8.5.36 || ^9.6.15",
                 "psr/log": "^1.1 || ^2.0 || ^3.0"
             },
             "suggest": {
@@ -742,7 +742,7 @@
             ],
             "support": {
                 "issues": "https://github.com/guzzle/guzzle/issues",
-                "source": "https://github.com/guzzle/guzzle/tree/7.8.0"
+                "source": "https://github.com/guzzle/guzzle/tree/7.8.1"
             },
             "funding": [
                 {
@@ -758,7 +758,7 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2023-08-27T10:20:53+00:00"
+            "time": "2023-12-03T20:35:24+00:00"
         },
         {
             "name": "guzzlehttp/promises",
@@ -6795,16 +6795,16 @@
         },
         {
             "name": "pestphp/pest",
-            "version": "v2.26.0",
+            "version": "v2.27.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/pestphp/pest.git",
-                "reference": "90fb8c602cf982ec973c2d13b31ce7510154ebc2"
+                "reference": "809fb855de3ce4fe9487ec5b3ad03c37ce3e7689"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/pestphp/pest/zipball/90fb8c602cf982ec973c2d13b31ce7510154ebc2",
-                "reference": "90fb8c602cf982ec973c2d13b31ce7510154ebc2",
+                "url": "https://api.github.com/repos/pestphp/pest/zipball/809fb855de3ce4fe9487ec5b3ad03c37ce3e7689",
+                "reference": "809fb855de3ce4fe9487ec5b3ad03c37ce3e7689",
                 "shasum": ""
             },
             "require": {
@@ -6814,17 +6814,17 @@
                 "pestphp/pest-plugin": "^2.1.1",
                 "pestphp/pest-plugin-arch": "^2.4.1",
                 "php": "^8.1.0",
-                "phpunit/phpunit": "^10.4.2"
+                "phpunit/phpunit": "^10.5.1"
             },
             "conflict": {
-                "phpunit/phpunit": ">10.4.2",
+                "phpunit/phpunit": ">10.5.1",
                 "sebastian/exporter": "<5.1.0",
                 "webmozart/assert": "<1.11.0"
             },
             "require-dev": {
                 "pestphp/pest-dev-tools": "^2.16.0",
                 "pestphp/pest-plugin-type-coverage": "^2.5.0",
-                "symfony/process": "^6.3.4"
+                "symfony/process": "^6.4.0|^7.0.1"
             },
             "bin": [
                 "bin/pest"
@@ -6887,7 +6887,7 @@
             ],
             "support": {
                 "issues": "https://github.com/pestphp/pest/issues",
-                "source": "https://github.com/pestphp/pest/tree/v2.26.0"
+                "source": "https://github.com/pestphp/pest/tree/v2.27.0"
             },
             "funding": [
                 {
@@ -6899,7 +6899,7 @@
                     "type": "github"
                 }
             ],
-            "time": "2023-11-29T09:09:09+00:00"
+            "time": "2023-12-04T11:11:35+00:00"
         },
         {
             "name": "pestphp/pest-plugin",
@@ -7684,16 +7684,16 @@
         },
         {
             "name": "phpunit/phpunit",
-            "version": "10.4.2",
+            "version": "10.5.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/sebastianbergmann/phpunit.git",
-                "reference": "cacd8b9dd224efa8eb28beb69004126c7ca1a1a1"
+                "reference": "d5d9dca6a902d05b34c4bcbc7c1636ce1dc25408"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/sebastianbergmann/phpunit/zipball/cacd8b9dd224efa8eb28beb69004126c7ca1a1a1",
-                "reference": "cacd8b9dd224efa8eb28beb69004126c7ca1a1a1",
+                "url": "https://api.github.com/repos/sebastianbergmann/phpunit/zipball/d5d9dca6a902d05b34c4bcbc7c1636ce1dc25408",
+                "reference": "d5d9dca6a902d05b34c4bcbc7c1636ce1dc25408",
                 "shasum": ""
             },
             "require": {
@@ -7733,7 +7733,7 @@
             "type": "library",
             "extra": {
                 "branch-alias": {
-                    "dev-main": "10.4-dev"
+                    "dev-main": "10.5-dev"
                 }
             },
             "autoload": {
@@ -7765,7 +7765,7 @@
             "support": {
                 "issues": "https://github.com/sebastianbergmann/phpunit/issues",
                 "security": "https://github.com/sebastianbergmann/phpunit/security/policy",
-                "source": "https://github.com/sebastianbergmann/phpunit/tree/10.4.2"
+                "source": "https://github.com/sebastianbergmann/phpunit/tree/10.5.1"
             },
             "funding": [
                 {
@@ -7781,7 +7781,7 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2023-10-26T07:21:45+00:00"
+            "time": "2023-12-01T16:57:05+00:00"
         },
         {
             "name": "sebastian/cli-parser",
