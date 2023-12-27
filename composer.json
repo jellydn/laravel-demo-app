@@ -7,8 +7,8 @@
     "require": {
         "php": "8.3.0",
         "guzzlehttp/guzzle": "7.8.1",
-        "laravel/framework": "10.38.2",
-        "laravel/sanctum": "3.3.2",
+        "laravel/framework": "10.39.0",
+        "laravel/sanctum": "3.3.3",
         "laravel/tinker": "2.8.2",
         "nativephp/electron": "0.4.0"
     },
@@ -18,8 +18,8 @@
         "laravel/sail": "1.26.3",
         "mockery/mockery": "1.6.7",
         "nunomaduro/collision": "7.10.0",
-        "pestphp/pest": "2.29.0",
-        "phpunit/phpunit": "10.5.3",
+        "pestphp/pest": "2.29.1",
+        "phpunit/phpunit": "10.5.5",
         "spatie/laravel-ignition": "2.3.3"
     },
     "autoload": {
