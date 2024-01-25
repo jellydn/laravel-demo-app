@@ -18,7 +18,7 @@
         "laravel/sail": "1.27.2",
         "mockery/mockery": "1.6.7",
         "nunomaduro/collision": "7.10.0",
-        "pestphp/pest": "2.32.2",
+        "pestphp/pest": "2.32.3",
         "phpunit/phpunit": "10.5.9",
         "spatie/laravel-ignition": "2.4.1"
     },
