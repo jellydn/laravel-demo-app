@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "434c3d7f45c42f9fe9ddbef1cd025de4",
+    "content-hash": "d4b74e5259c6c7a38b3e2fb4bc169c7c",
     "packages": [
         {
             "name": "brick/math",
@@ -6789,16 +6789,16 @@
         },
         {
             "name": "pestphp/pest",
-            "version": "v2.33.0",
+            "version": "v2.33.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/pestphp/pest.git",
-                "reference": "19e748f0d4a8708d51c0ef55d028d9967f30129f"
+                "reference": "eeade88ad236f881f044430e0e9fefaad255718f"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/pestphp/pest/zipball/19e748f0d4a8708d51c0ef55d028d9967f30129f",
-                "reference": "19e748f0d4a8708d51c0ef55d028d9967f30129f",
+                "url": "https://api.github.com/repos/pestphp/pest/zipball/eeade88ad236f881f044430e0e9fefaad255718f",
+                "reference": "eeade88ad236f881f044430e0e9fefaad255718f",
                 "shasum": ""
             },
             "require": {
@@ -6806,7 +6806,7 @@
                 "nunomaduro/collision": "^7.10.0|^8.1.0",
                 "nunomaduro/termwind": "^1.15.1|^2.0.0",
                 "pestphp/pest-plugin": "^2.1.1",
-                "pestphp/pest-plugin-arch": "^2.6.1",
+                "pestphp/pest-plugin-arch": "^2.7.0",
                 "php": "^8.1.0",
                 "phpunit/phpunit": "^10.5.9"
             },
@@ -6881,7 +6881,7 @@
             ],
             "support": {
                 "issues": "https://github.com/pestphp/pest/issues",
-                "source": "https://github.com/pestphp/pest/tree/v2.33.0"
+                "source": "https://github.com/pestphp/pest/tree/v2.33.2"
             },
             "funding": [
                 {
@@ -6893,7 +6893,7 @@
                     "type": "github"
                 }
             ],
-            "time": "2024-01-26T01:58:03+00:00"
+            "time": "2024-01-29T12:50:00+00:00"
         },
         {
             "name": "pestphp/pest-plugin",
