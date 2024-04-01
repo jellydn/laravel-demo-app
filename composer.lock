@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "4859acd328747677e9503093dba3257c",
+    "content-hash": "a9fc1a74b8b6c9de81c213531422ddf9",
     "packages": [
         {
             "name": "brick/math",
@@ -1997,20 +1997,20 @@
         },
         {
             "name": "nativephp/electron",
-            "version": "0.4.0",
+            "version": "0.5.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/NativePHP/electron.git",
-                "reference": "d9bc645328148dfa334968ede4388b59d50abd56"
+                "reference": "8b696907e6c56cc1649dd73d85bbf90b2cf7f8aa"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/NativePHP/electron/zipball/d9bc645328148dfa334968ede4388b59d50abd56",
-                "reference": "d9bc645328148dfa334968ede4388b59d50abd56",
+                "url": "https://api.github.com/repos/NativePHP/electron/zipball/8b696907e6c56cc1649dd73d85bbf90b2cf7f8aa",
+                "reference": "8b696907e6c56cc1649dd73d85bbf90b2cf7f8aa",
                 "shasum": ""
             },
             "require": {
-                "illuminate/contracts": "^10.0",
+                "illuminate/contracts": "^10.0|^11.0",
                 "laravel/prompts": "^0.1.1",
                 "nativephp/laravel": "*",
                 "nativephp/php-bin": "*",
@@ -2065,29 +2065,29 @@
                 "nativephp"
             ],
             "support": {
-                "source": "https://github.com/NativePHP/electron/tree/0.4.0"
+                "source": "https://github.com/NativePHP/electron/tree/0.5.0"
             },
-            "time": "2023-08-09T20:58:06+00:00"
+            "time": "2024-04-01T16:29:10+00:00"
         },
         {
             "name": "nativephp/laravel",
-            "version": "0.4.0",
+            "version": "0.5.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/NativePHP/laravel.git",
-                "reference": "8d405f45b1c0858cbe11b94fa9ef3326b8c5c458"
+                "reference": "691c8c2f9d894e6ead65e274046825e179ef8fd5"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/NativePHP/laravel/zipball/8d405f45b1c0858cbe11b94fa9ef3326b8c5c458",
-                "reference": "8d405f45b1c0858cbe11b94fa9ef3326b8c5c458",
+                "url": "https://api.github.com/repos/NativePHP/laravel/zipball/691c8c2f9d894e6ead65e274046825e179ef8fd5",
+                "reference": "691c8c2f9d894e6ead65e274046825e179ef8fd5",
                 "shasum": ""
             },
             "require": {
-                "illuminate/contracts": "^10.0",
+                "illuminate/contracts": "^10.0|^11.0",
                 "php": "^8.1",
                 "spatie/laravel-package-tools": "^1.14.0",
-                "symfony/finder": "^6.2"
+                "symfony/finder": "^6.2|^7.0"
             },
             "require-dev": {
                 "guzzlehttp/guzzle": "^7.0",
@@ -2144,9 +2144,9 @@
             ],
             "support": {
                 "issues": "https://github.com/NativePHP/laravel/issues",
-                "source": "https://github.com/NativePHP/laravel/tree/0.4.0"
+                "source": "https://github.com/NativePHP/laravel/tree/0.5.0"
             },
-            "time": "2023-08-09T20:44:37+00:00"
+            "time": "2024-04-01T16:29:53+00:00"
         },
         {
             "name": "nativephp/php-bin",
