@@ -2061,16 +2061,16 @@
         },
         {
             "name": "nativephp/laravel",
-            "version": "0.5.4",
+            "version": "0.5.5",
             "source": {
                 "type": "git",
                 "url": "https://github.com/NativePHP/laravel.git",
-                "reference": "54461562d53ef7e519ec72cb62eabd0b64450eaf"
+                "reference": "5385347d78a748569c9ade7d11ccb2135d0430d4"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/NativePHP/laravel/zipball/54461562d53ef7e519ec72cb62eabd0b64450eaf",
-                "reference": "54461562d53ef7e519ec72cb62eabd0b64450eaf",
+                "url": "https://api.github.com/repos/NativePHP/laravel/zipball/5385347d78a748569c9ade7d11ccb2135d0430d4",
+                "reference": "5385347d78a748569c9ade7d11ccb2135d0430d4",
                 "shasum": ""
             },
             "require": {
@@ -2139,7 +2139,7 @@
             ],
             "support": {
                 "issues": "https://github.com/NativePHP/laravel/issues",
-                "source": "https://github.com/NativePHP/laravel/tree/0.5.4"
+                "source": "https://github.com/NativePHP/laravel/tree/0.5.5"
             },
             "funding": [
                 {
@@ -2147,20 +2147,20 @@
                     "type": "github"
                 }
             ],
-            "time": "2024-08-24T10:20:20+00:00"
+            "time": "2024-09-02T14:05:50+00:00"
         },
         {
             "name": "nativephp/php-bin",
-            "version": "0.4.0",
+            "version": "0.5.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/NativePHP/php-bin.git",
-                "reference": "ce010463b07fb62a2cd5c298db26df6b84605f1f"
+                "reference": "99f2e3d0b576028ead429f3485acb81478b8566f"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/NativePHP/php-bin/zipball/ce010463b07fb62a2cd5c298db26df6b84605f1f",
-                "reference": "ce010463b07fb62a2cd5c298db26df6b84605f1f",
+                "url": "https://api.github.com/repos/NativePHP/php-bin/zipball/99f2e3d0b576028ead429f3485acb81478b8566f",
+                "reference": "99f2e3d0b576028ead429f3485acb81478b8566f",
                 "shasum": ""
             },
             "type": "library",
@@ -2190,9 +2190,15 @@
                 "php"
             ],
             "support": {
-                "source": "https://github.com/NativePHP/php-bin/tree/0.4.0"
+                "source": "https://github.com/NativePHP/php-bin/tree/0.5.2"
             },
-            "time": "2024-04-26T14:32:29+00:00"
+            "funding": [
+                {
+                    "url": "https://github.com/sponsors/simonhamp",
+                    "type": "github"
+                }
+            ],
+            "time": "2024-09-06T13:21:57+00:00"
         },
         {
             "name": "nesbot/carbon",
@@ -7306,16 +7312,16 @@
         },
         {
             "name": "phpstan/phpdoc-parser",
-            "version": "1.30.0",
+            "version": "1.30.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/phpstan/phpdoc-parser.git",
-                "reference": "5ceb0e384997db59f38774bf79c2a6134252c08f"
+                "reference": "51b95ec8670af41009e2b2b56873bad96682413e"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/phpstan/phpdoc-parser/zipball/5ceb0e384997db59f38774bf79c2a6134252c08f",
-                "reference": "5ceb0e384997db59f38774bf79c2a6134252c08f",
+                "url": "https://api.github.com/repos/phpstan/phpdoc-parser/zipball/51b95ec8670af41009e2b2b56873bad96682413e",
+                "reference": "51b95ec8670af41009e2b2b56873bad96682413e",
                 "shasum": ""
             },
             "require": {
@@ -7347,9 +7353,9 @@
             "description": "PHPDoc parser with support for nullable, intersection and generic types",
             "support": {
                 "issues": "https://github.com/phpstan/phpdoc-parser/issues",
-                "source": "https://github.com/phpstan/phpdoc-parser/tree/1.30.0"
+                "source": "https://github.com/phpstan/phpdoc-parser/tree/1.30.1"
             },
-            "time": "2024-08-29T09:54:52+00:00"
+            "time": "2024-09-07T20:13:05+00:00"
         },
         {
             "name": "phpunit/php-code-coverage",
