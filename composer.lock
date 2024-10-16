@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "5cc137dd1bfab4b108b9e2d27f131b29",
+    "content-hash": "331c0eef4eb4df29703348316b822cbb",
     "packages": [
         {
             "name": "brick/math",
@@ -1991,21 +1991,21 @@
         },
         {
             "name": "nativephp/electron",
-            "version": "0.7.3",
+            "version": "0.7.4",
             "source": {
                 "type": "git",
                 "url": "https://github.com/NativePHP/electron.git",
-                "reference": "d33e94771523b2de78f28e2e6ac2d520bc97b3aa"
+                "reference": "8002c116dc7ed1a942af2fd7caab5594743355e3"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/NativePHP/electron/zipball/d33e94771523b2de78f28e2e6ac2d520bc97b3aa",
-                "reference": "d33e94771523b2de78f28e2e6ac2d520bc97b3aa",
+                "url": "https://api.github.com/repos/NativePHP/electron/zipball/8002c116dc7ed1a942af2fd7caab5594743355e3",
+                "reference": "8002c116dc7ed1a942af2fd7caab5594743355e3",
                 "shasum": ""
             },
             "require": {
                 "illuminate/contracts": "^10.0|^11.0",
-                "laravel/prompts": "^0.1.1|^0.2",
+                "laravel/prompts": "^0.1.1|^0.2|^0.3",
                 "nativephp/laravel": "*",
                 "nativephp/php-bin": "^0.5",
                 "php": "^8.1",
@@ -2064,7 +2064,7 @@
                 "nativephp"
             ],
             "support": {
-                "source": "https://github.com/NativePHP/electron/tree/0.7.3"
+                "source": "https://github.com/NativePHP/electron/tree/0.7.4"
             },
             "funding": [
                 {
@@ -2076,7 +2076,7 @@
                     "type": "opencollective"
                 }
             ],
-            "time": "2024-09-27T00:12:14+00:00"
+            "time": "2024-10-14T17:37:14+00:00"
         },
         {
             "name": "nativephp/laravel",
