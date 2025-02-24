@@ -7266,16 +7266,16 @@
         },
         {
             "name": "phpstan/phpdoc-parser",
-            "version": "2.0.1",
+            "version": "2.1.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/phpstan/phpdoc-parser.git",
-                "reference": "72e51f7c32c5aef7c8b462195b8c599b11199893"
+                "reference": "9b30d6fd026b2c132b3985ce6b23bec09ab3aa68"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/phpstan/phpdoc-parser/zipball/72e51f7c32c5aef7c8b462195b8c599b11199893",
-                "reference": "72e51f7c32c5aef7c8b462195b8c599b11199893",
+                "url": "https://api.github.com/repos/phpstan/phpdoc-parser/zipball/9b30d6fd026b2c132b3985ce6b23bec09ab3aa68",
+                "reference": "9b30d6fd026b2c132b3985ce6b23bec09ab3aa68",
                 "shasum": ""
             },
             "require": {
@@ -7307,9 +7307,9 @@
             "description": "PHPDoc parser with support for nullable, intersection and generic types",
             "support": {
                 "issues": "https://github.com/phpstan/phpdoc-parser/issues",
-                "source": "https://github.com/phpstan/phpdoc-parser/tree/2.0.1"
+                "source": "https://github.com/phpstan/phpdoc-parser/tree/2.1.0"
             },
-            "time": "2025-02-13T12:25:43+00:00"
+            "time": "2025-02-19T13:28:12+00:00"
         },
         {
             "name": "phpunit/php-code-coverage",
@@ -8857,16 +8857,16 @@
         },
         {
             "name": "spatie/ignition",
-            "version": "1.15.0",
+            "version": "1.15.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/spatie/ignition.git",
-                "reference": "e3a68e137371e1eb9edc7f78ffa733f3b98991d2"
+                "reference": "31f314153020aee5af3537e507fef892ffbf8c85"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/spatie/ignition/zipball/e3a68e137371e1eb9edc7f78ffa733f3b98991d2",
-                "reference": "e3a68e137371e1eb9edc7f78ffa733f3b98991d2",
+                "url": "https://api.github.com/repos/spatie/ignition/zipball/31f314153020aee5af3537e507fef892ffbf8c85",
+                "reference": "31f314153020aee5af3537e507fef892ffbf8c85",
                 "shasum": ""
             },
             "require": {
@@ -8879,7 +8879,7 @@
                 "symfony/var-dumper": "^5.4|^6.0|^7.0"
             },
             "require-dev": {
-                "illuminate/cache": "^9.52|^10.0|^11.0",
+                "illuminate/cache": "^9.52|^10.0|^11.0|^12.0",
                 "mockery/mockery": "^1.4",
                 "pestphp/pest": "^1.20|^2.0",
                 "phpstan/extension-installer": "^1.1",
@@ -8936,7 +8936,7 @@
                     "type": "github"
                 }
             ],
-            "time": "2024-06-12T14:55:22+00:00"
+            "time": "2025-02-21T14:31:39+00:00"
         },
         {
             "name": "spatie/laravel-ignition",
