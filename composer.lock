@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "331c0eef4eb4df29703348316b822cbb",
+    "content-hash": "244f8875edb24e2d59951d9a54d38dbd",
     "packages": [
         {
             "name": "brick/math",
@@ -1994,37 +1994,39 @@
         },
         {
             "name": "nativephp/electron",
-            "version": "0.7.4",
+            "version": "1.0.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/NativePHP/electron.git",
-                "reference": "8002c116dc7ed1a942af2fd7caab5594743355e3"
+                "reference": "e0624eba8d2994669a90180125a7c0bd8631c51a"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/NativePHP/electron/zipball/8002c116dc7ed1a942af2fd7caab5594743355e3",
-                "reference": "8002c116dc7ed1a942af2fd7caab5594743355e3",
+                "url": "https://api.github.com/repos/NativePHP/electron/zipball/e0624eba8d2994669a90180125a7c0bd8631c51a",
+                "reference": "e0624eba8d2994669a90180125a7c0bd8631c51a",
                 "shasum": ""
             },
             "require": {
-                "illuminate/contracts": "^10.0|^11.0",
+                "ext-zip": "*",
+                "illuminate/contracts": "^10.0|^11.0|^12.0",
                 "laravel/prompts": "^0.1.1|^0.2|^0.3",
-                "nativephp/laravel": "*",
-                "nativephp/php-bin": "^0.5",
-                "php": "^8.1",
-                "spatie/laravel-package-tools": "^1.14.0"
+                "nativephp/laravel": "^1.0",
+                "nativephp/php-bin": "^1.0",
+                "php": "^8.3",
+                "spatie/laravel-package-tools": "^1.16.4",
+                "symfony/filesystem": "^6.4|^7.2"
             },
             "require-dev": {
+                "larastan/larastan": "^2.0.1|^3.0",
                 "laravel/pint": "^1.0",
-                "nunomaduro/collision": "^7.9",
-                "nunomaduro/larastan": "^2.0.1",
-                "orchestra/testbench": "^8.18",
-                "pestphp/pest": "^2.7",
-                "pestphp/pest-plugin-arch": "^2.0",
-                "pestphp/pest-plugin-laravel": "^2.0",
+                "nunomaduro/collision": "^7.9|^8.1.1",
+                "orchestra/testbench": "^8.18|^9.0|^10.0",
+                "pestphp/pest": "^2.7|^3.7",
+                "pestphp/pest-plugin-arch": "^2.0|^3.0",
+                "pestphp/pest-plugin-laravel": "^2.0|^3.1",
                 "phpstan/extension-installer": "^1.1",
-                "phpstan/phpstan-deprecation-rules": "^1.0",
-                "phpstan/phpstan-phpunit": "^1.0",
+                "phpstan/phpstan-deprecation-rules": "^1.0|^2.0",
+                "phpstan/phpstan-phpunit": "^1.0|^2.0",
                 "spatie/laravel-ray": "^1.26"
             },
             "type": "library",
@@ -2067,7 +2069,7 @@
                 "nativephp"
             ],
             "support": {
-                "source": "https://github.com/NativePHP/electron/tree/0.7.4"
+                "source": "https://github.com/NativePHP/electron/tree/1.0.0"
             },
             "funding": [
                 {
@@ -2079,51 +2081,63 @@
                     "type": "opencollective"
                 }
             ],
-            "time": "2024-10-14T17:37:14+00:00"
+            "time": "2025-04-07T14:55:46+00:00"
         },
         {
             "name": "nativephp/laravel",
-            "version": "0.7.0",
+            "version": "1.0.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/NativePHP/laravel.git",
-                "reference": "1cf8438a85bacf565b175d048fff5a3e8424ce4d"
+                "reference": "9e9166d698e55e1877ba1726ba7d25999c85065f"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/NativePHP/laravel/zipball/1cf8438a85bacf565b175d048fff5a3e8424ce4d",
-                "reference": "1cf8438a85bacf565b175d048fff5a3e8424ce4d",
+                "url": "https://api.github.com/repos/NativePHP/laravel/zipball/9e9166d698e55e1877ba1726ba7d25999c85065f",
+                "reference": "9e9166d698e55e1877ba1726ba7d25999c85065f",
                 "shasum": ""
             },
             "require": {
-                "illuminate/contracts": "^10.0|^11.0",
-                "php": "^8.1",
+                "illuminate/contracts": "^10.0|^11.0|^12.0",
+                "php": "^8.3",
                 "spatie/laravel-package-tools": "^1.16.4",
                 "symfony/finder": "^6.2|^7.0"
             },
             "require-dev": {
                 "guzzlehttp/guzzle": "^7.0",
-                "larastan/larastan": "^2.0|^3.0",
+                "larastan/larastan": "^2.0|^3.1",
                 "laravel/pint": "^1.0",
-                "nunomaduro/collision": "^7.9",
-                "orchestra/testbench": "^8.0",
-                "pestphp/pest": "^2.0",
-                "pestphp/pest-plugin-arch": "^2.0",
-                "pestphp/pest-plugin-laravel": "^2.0",
+                "nunomaduro/collision": "^7.11|^8.1.1",
+                "orchestra/testbench": "^8.0|^9.0|^10.0",
+                "pestphp/pest": "^v2.30|^3.0",
+                "pestphp/pest-plugin-arch": "^2.0|^3.0",
+                "pestphp/pest-plugin-laravel": "^2.0|^3.1",
                 "phpstan/extension-installer": "^1.1",
-                "phpstan/phpstan-deprecation-rules": "^1.0",
-                "phpstan/phpstan-phpunit": "^1.0",
+                "phpstan/phpstan-deprecation-rules": "^1.0|^2.0",
+                "phpstan/phpstan-phpunit": "^1.0|^2.0",
                 "spatie/laravel-ray": "^1.26"
             },
             "type": "library",
             "extra": {
                 "laravel": {
                     "aliases": {
+                        "App": "Native\\Laravel\\Facades\\App",
                         "Dock": "Native\\Laravel\\Facades\\Dock",
+                        "Menu": "Native\\Laravel\\Facades\\Menu",
+                        "Shell": "Native\\Laravel\\Facades\\Shell",
+                        "Screen": "Native\\Laravel\\Facades\\Screen",
+                        "System": "Native\\Laravel\\Facades\\System",
                         "Window": "Native\\Laravel\\Facades\\Window",
+                        "MenuBar": "Native\\Laravel\\Facades\\MenuBar",
                         "Process": "Native\\Laravel\\Facades\\Process",
+                        "Settings": "Native\\Laravel\\Facades\\Settings",
                         "Clipboard": "Native\\Laravel\\Facades\\Clipboard",
-                        "ContextMenu": "Native\\Laravel\\Facades\\ContextMenu"
+                        "ContextMenu": "Native\\Laravel\\Facades\\ContextMenu",
+                        "QueueWorker": "Native\\Laravel\\Facades\\QueueWorker",
+                        "ChildProcess": "Native\\Laravel\\Facades\\ChildProcess",
+                        "Notification": "Native\\Laravel\\Facades\\Notification",
+                        "PowerMonitor": "Native\\Laravel\\Facades\\PowerMonitor",
+                        "GlobalShortcut": "Native\\Laravel\\Facades\\GlobalShortcut"
                     },
                     "providers": [
                         "Native\\Laravel\\NativeServiceProvider"
@@ -2160,7 +2174,7 @@
             ],
             "support": {
                 "issues": "https://github.com/NativePHP/laravel/issues",
-                "source": "https://github.com/NativePHP/laravel/tree/0.7.0"
+                "source": "https://github.com/NativePHP/laravel/tree/1.0.0"
             },
             "funding": [
                 {
@@ -2172,20 +2186,20 @@
                     "type": "opencollective"
                 }
             ],
-            "time": "2024-12-19T14:49:06+00:00"
+            "time": "2025-04-07T14:52:57+00:00"
         },
         {
             "name": "nativephp/php-bin",
-            "version": "0.5.6",
+            "version": "1.0.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/NativePHP/php-bin.git",
-                "reference": "55833dffe2836b086ac4e881e743713309a08bb1"
+                "reference": "87e8e187f95342109f6009934a85d6f1e539efbd"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/NativePHP/php-bin/zipball/55833dffe2836b086ac4e881e743713309a08bb1",
-                "reference": "55833dffe2836b086ac4e881e743713309a08bb1",
+                "url": "https://api.github.com/repos/NativePHP/php-bin/zipball/87e8e187f95342109f6009934a85d6f1e539efbd",
+                "reference": "87e8e187f95342109f6009934a85d6f1e539efbd",
                 "shasum": ""
             },
             "type": "library",
@@ -2215,7 +2229,7 @@
                 "php"
             ],
             "support": {
-                "source": "https://github.com/NativePHP/php-bin/tree/0.5.6"
+                "source": "https://github.com/NativePHP/php-bin/tree/1.0.0"
             },
             "funding": [
                 {
@@ -2227,7 +2241,7 @@
                     "type": "opencollective"
                 }
             ],
-            "time": "2024-12-29T18:36:39+00:00"
+            "time": "2025-03-31T14:51:23+00:00"
         },
         {
             "name": "nesbot/carbon",
@@ -3921,6 +3935,72 @@
                 }
             ],
             "time": "2024-09-25T14:20:29+00:00"
+        },
+        {
+            "name": "symfony/filesystem",
+            "version": "v7.2.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/symfony/filesystem.git",
+                "reference": "b8dce482de9d7c9fe2891155035a7248ab5c7fdb"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/symfony/filesystem/zipball/b8dce482de9d7c9fe2891155035a7248ab5c7fdb",
+                "reference": "b8dce482de9d7c9fe2891155035a7248ab5c7fdb",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=8.2",
+                "symfony/polyfill-ctype": "~1.8",
+                "symfony/polyfill-mbstring": "~1.8"
+            },
+            "require-dev": {
+                "symfony/process": "^6.4|^7.0"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Symfony\\Component\\Filesystem\\": ""
+                },
+                "exclude-from-classmap": [
+                    "/Tests/"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Fabien Potencier",
+                    "email": "fabien@symfony.com"
+                },
+                {
+                    "name": "Symfony Community",
+                    "homepage": "https://symfony.com/contributors"
+                }
+            ],
+            "description": "Provides basic utilities for the filesystem",
+            "homepage": "https://symfony.com",
+            "support": {
+                "source": "https://github.com/symfony/filesystem/tree/v7.2.0"
+            },
+            "funding": [
+                {
+                    "url": "https://symfony.com/sponsor",
+                    "type": "custom"
+                },
+                {
+                    "url": "https://github.com/fabpot",
+                    "type": "github"
+                },
+                {
+                    "url": "https://tidelift.com/funding/github/packagist/symfony/symfony",
+                    "type": "tidelift"
+                }
+            ],
+            "time": "2024-10-25T15:15:23+00:00"
         },
         {
             "name": "symfony/finder",
