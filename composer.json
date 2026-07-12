@@ -9,7 +9,7 @@
         "guzzlehttp/guzzle": "7.9.2",
         "laravel/framework": "10.48.22",
         "laravel/sanctum": "3.3.3",
-        "laravel/tinker": "2.10.0",
+        "laravel/tinker": "3.0.2",
         "nativephp/electron": "0.7.4"
     },
     "require-dev": {
